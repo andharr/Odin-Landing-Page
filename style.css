@@ -1,0 +1,197 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    /* hyphens: auto; */
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /*//////////////////////////////////////////////
+  //////////////////////////////////////////////*/
+
+header, .top, footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 0 10rem;
+    /* background-overflow: visible;
+    background-position: -100px top; */
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 10rem;
+}
+
+header img {
+    height: auto;
+    max-width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+li a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 24px;
+
+}
+
+.top.image {
+    height: auto;
+    max-width: 600px;
+    /* object-fit: contain; */
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+
+    font-size: 38px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.words {
+    max-width: 600px;
+    line-height: 4rem;
+}
+
+.words h1 {
+    margin-bottom: .5rem;
+}
+
+.top p {
+    font-size: 24px;
+    color: #f9faf8;
+    line-height: 2rem;
+}
+
+button {
+    background-color: #3882f6;
+    border: #3882f6;
+    color: #f9faf8;
+    padding: 8px 35px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.info {
+    font-size: 32px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    min-height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info h2 {
+    padding-bottom: 2rem;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+.flowers {
+    display: flex;
+    gap: 4rem;
+}
+
+.flower {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.petal {
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 24px;
+    color: #1f2937;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor {
+    max-width: 700px;
+    line-height: 2.25rem;
+}
+.thor h4 {
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.bigBlue {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 24px;
+    min-height: 150px;
+    padding: 3rem 5rem;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+}
+
+.bigBlue button {
+    border: 2px white solid;
+    padding: 8px 35px;
+    line-height: 1rem;
+    max-height: 35px;
+}
