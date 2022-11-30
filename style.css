@@ -41,6 +41,7 @@ header, .top, footer {
     background-position: -100px top; */
 }
 
+/* header section */
 header {
     display: flex;
     justify-content:space-between;
@@ -71,6 +72,7 @@ li a {
 
 }
 
+/* Top Main Section */
 .top.image {
     height: auto;
     max-width: 600px;
@@ -83,14 +85,14 @@ li a {
     align-items: center;
     min-height: 500px;
 
-    font-size: 38px;
+    font-size: 34px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
 
 .words {
     max-width: 600px;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
 
 .words h1 {
@@ -112,6 +114,7 @@ button {
     font-size: 20px;
 }
 
+/* Info Section with Images */
 .info {
     font-size: 32px;
     font-weight: extra-bold;
@@ -150,6 +153,7 @@ button {
     border-radius: 8px;
 }
 
+/* Thor Quote Section */
 .quote {
     background-color: #e5e7eb;
     font-size: 24px;
@@ -175,6 +179,7 @@ button {
     min-height: 400px;
 }
 
+/* Big Blue Box */
 .bigBlue {
     background-color: #3882f6;
     color: #e5e7eb;
